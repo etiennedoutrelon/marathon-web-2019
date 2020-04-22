@@ -1,0 +1,118 @@
+.navbar-center{
+    width: 100%;
+    margin: auto;
+}
+
+.avatar{
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 500px;
+}
+header{
+    border-bottom: solid 2px #09274d;
+    background-color: lightseagreen;
+}
+
+.navbar{
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    box-shadow: none !important;
+    width: 90%;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 993px){
+    .navbar{
+        width: 100%;
+    }
+}
+
+.navbar a {
+    color: whitesmoke;
+}
+
+.navbar-brand img{
+    width: 170px;
+    height: 80px;
+}
+.img{
+    width: 175px;
+    height: 250px;
+    margin-top: 60%;
+    border-radius: 500px;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+}
+
+/* Titre serie */
+
+.card-title{
+    font-family: "Cooper black", sans-serif;
+    color:#09274d;
+}
+
+.serie-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding-bottom: 3%;
+} 
+.card{
+    transition: 500ms;
+}
+
+.card:hover{
+    margin-top: 5%;
+    opacity: 0.8;
+    transform: scale(1.06);
+    transition: 500ms;
+}
+
+
+@media screen and (max-width: 993px){
+    .serie-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+
+@media screen and (max-width: 500px){
+    .serie-container{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-gap: 20px;
+    } 
+}
+
+
+ /* Tableau de chaque serie */
+thead{
+    
+}
+
+.titreSerie{
+    font: 2rem bold;
+    color: orangered !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+.td-title{
+    width: 200px;
+    font-size: 1.1rem;
+    color: #09274d;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+}
+.backToPage{
+    text-align: center;
+}
+td {
+    font-family: "Quicksand",sans-serif;
+    color:black;
+    font-size: 1.1rem;
+}
